@@ -1,0 +1,16 @@
+/node_modules
+/.next
+/out
+/build
+
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.env*.local
+
+# Playwright MCP test artifacts
+/.playwright-mcp
+/*.png
+
+# Claude Code local settings
+/.claude/settings.local.json
