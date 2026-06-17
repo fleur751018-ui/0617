@@ -14,3 +14,7 @@ next-env.d.ts
 
 # Claude Code local settings
 /.claude/settings.local.json
+
+# SQLite WAL 사이드카 임시 파일 (app.db 본체만 추적)
+data/*.db-wal
+data/*.db-shm
